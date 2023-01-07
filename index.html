@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankah Anthony Bekoe</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <main class="" id="home">
+        <!-- Navigation -->
+        <div class="sticky top-0 p-4 md:p-0 mb-4 flex md:flex-row flex-col">
+            <div class="nav-bar p-4 flex md:flex-row flex-col justify-around items-center w-full">
+                <h2 class="text-2xl font-bold">
+                    <span class="hidden md:block">
+                        <a href="#">BANKAH</a>
+                    </span>
+                    <span class="md:hidden">
+                        <a href="#">BANKAH ANTHONY BEKOE</a>
+                    </span>
+                </h2>
+                <nav>
+                    <ul class="hidden md:flex">
+                        <li class="mr-4 border border-white rounded-lg px-2 font-semibold" id="Home"><a href="#home">Home</a></li>
+                        <li class="mr-4 border border-white rounded-lg px-2 font-semibold" id="About"><a href="#about">About</a></li>
+                        <li class="mr-4 border border-white rounded-lg px-2 font-semibold" id="Skills"><a href="#skills">Skills</a></li>
+                        <li class="mr-4 border border-white rounded-lg px-2 font-semibold" id="Projects"><a href="#projects">Projects</a></li>
+                        <li class="mr-4 border border-white rounded-lg px-2 font-semibold" id="Contact"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="toggle-menu md:hidden my-4">
+                        <img src="./icon/menu.png" alt="menu" class="w-8 h-8" id="menuIcon">
+                        <img src="./icon/close.png" alt="close" class="w-8 h-8 hidden" id="closeMenu">
+                    </div>
+                </nav>
+                <div class="social-media-icons flex">
+                    <a href="https://www.linkedin.com/in/anthony-bekoe-bankah-080448240">
+                        <img src="./icon/linkedin.png" alt="linkedin" title="LinkedIn" class="w-6 h-6 mr-8">
+                    </a>
+                    <a href="https://github.com/bankah-junior">
+                        <img src="./icon/github.png" alt="github" title="GitHub" class="w-6 h-6 mr-8">
+                    </a>
+                    <a href="https://www.instagram.com/@iam.bankah">
+                        <img src="./icon/instagram-original.png" alt="instagram" title="Instagram" class="w-6 h-6 mr-8">
+                    </a>
+                    <a href="https://twitter.com/iam_bankah?t=UFouGnCo6AL1bxU_MMVRg&s=09">
+                        <img src="./icon/twitter-filled.png" alt="twitter" title="Twitter" class="w-6 h-6 mr-8">
+                    </a>
+                    <a href="https://www.youtube.com/@welearn2">
+                        <img src="./icon/youtube.png" alt="youtube" title="YouTube" class="w-6 h-6 mr-8">
+                    </a>
+                </div>
+            </div>
+            <!-- menu display -->
+            <div class="mobile-menu flex bg-gray-500 mt-4 hidden md:hidden" id="menuDisplay">
+                <ul class="flex flex-col w-full rounded-lg">
+                    <li class="py-2 pl-4 my-2 active-link" id="homeIcon">
+                        <a href="#home" class="flex">
+                            <img src="./icon/home.png" alt="home" class="w-6 h-6 mr-4">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="py-2 pl-4 mb-2" id="aboutIcon">
+                        <a href="#about" class="flex">
+                            <img src="./icon/user.png" alt="user" class="w-6 h-6 mr-4">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="py-2 pl-4 mb-2" id="skillsIcon">
+                        <a href="#skills" class="flex">
+                            <img src="./icon/skipping-rope.png" alt="skipping-rope" class="w-6 h-6 mr-4">
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li class="py-2 pl-4 mb-2" id="projectsIcon">
+                        <a href="#projects" class="flex">
+                            <img src="./icon/laptop-phone.png" alt="laptop-phone" class="w-6 h-6 mr-4">
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="py-2 pl-4 my-2" id="contactIcon">
+                        <a href="#contact" class="flex">
+                            <img src="./icon/postcard.png" alt="postcard" class="w-6 h-6 mr-4">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end of menu display -->
+        </div>
+        <!-- End of Navigation -->
+
+        <!-- Home -->
+        <div class="home p-4">
+            <div class="home-container md:w-100-10 flex flex-col md:flex-row md:items-center">
+                <img src="./img/undraw_profile_re_4a55.svg" alt="profile" class="md:w-100-50 mr-4">
+                <div class="mt-4 md:mt-0 md:ml-12">
+                    <h2 class="text-4xl font-semibold text-right"><i>Welcome</i></h2>
+                    <h3 class="text-lg font-semibold text-right"> ○ Student  ○ Youtuber  ○ Developer </h3> <br>
+                    <p class="text-right">
+                        Hello, I'm <b class="reddish text-lg">Bankah Anthony Bekoe</b>. Welcome to my portfolio website.
+                        I'm a student reading Computer Science and Engineering. I also manage a YouTube channel. I'm a 
+                        frontend web developer. Explore my portfolio to know more.
+                    </p>
+                    <div class="flex mt-4 buttons justify-end">
+                        <button class="p-2 font-bold bg-reddish mr-8">
+                            <a href="#contact" class="flex">
+                                <span>Contact me</span>
+                            </a>
+                        </button>
+                        <button class="p-2 font-bold bg-reddish">
+                            <a href="https://drive.google.com/uc?export=download&id=1H7wy5T9rUAp6mbFEuwjpPpIcVLA1YRtE" download="CV" class="flex">
+                                <span>Download CV</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Home -->
+
+        <!-- About -->
+        <div class="about w-full mt-4" id="about">
+            <div class="about-container flex flex-col md:flex-row-reverse justify-between items-center p-4">
+                <img src="./img/undraw_portfolio_website_re_jsdd.svg" alt="bankah" class="md:w-100-60">
+                <div class="mt-4 md:mt-0 text-white">
+                    <h2 class="text-5xl font-bold">About Me</h2>
+                    <p class="p-2 md:mr-8">
+                        I am <b class="text-lg"><i>Bankah Anthony Bekoe</i></b>. I am 20 years of
+                        age. I'm from Cape Coast but stays at Tarkwa in the Western part of Ghana.
+                        I am a student of University of Mines and Technology (UMaT) which is 
+                        located in the Western part of Ghana, Takoradi - Essikado. I am reading 
+                        Computer Science and Engineering and I'm in my second year. This programme
+                        has really exposed me to so many things and has expanded how I see technology.
+                        2022 was when I started coding and the first programming language I took of with 
+                        is C++. It wasn't easy but with <q>Hardworking, being Consistent and Determination</q> 
+                        I got it well. It has given me a great start making learning of other programming 
+                        languages easy. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End of About -->
+
+        <!-- Skills -->
+        <div class="skills mt-4 p-4" id="skills">
+            <h2 class="text-4xl font-semibold">My Skills</h2>
+
+            <p class="mt-4">C++</p>
+            <div class="container">
+                <div class="skills cpp">60%</div>
+            </div>
+
+            <p class="mt-4">HTML</p>
+            <div class="container">
+                <div class="skills html">80%</div>
+            </div>
+
+            <p class="mt-4">CSS</p>
+            <div class="container">
+                <div class="skills css">70%</div>
+            </div>
+
+            <p class="mt-4">JavaScript</p>
+            <div class="container">
+                <div class="skills js">50%</div>
+            </div>
+
+            <p class="mt-4">TailwindCSS</p>
+            <div class="container">
+                <div class="skills tailwindcss">60%</div>
+            </div>
+
+            <p class="mt-4">Bootstrap</p>
+            <div class="container">
+                <div class="skills bootstrap">75%</div>
+            </div>
+        </div>
+        <!-- End of Skills -->
+
+        <!-- Projects -->
+        <div class="project w-full mt-4" id="projects">
+            <center class="text-4xl font-bold">My Projects</center>
+            <div class="projects-container flex flex-col md:flex-row justify-between p-4">
+                <div class="flex flex-col md:w-100-70 justify-between items-center shadow-xl">
+                    <img src="./img/connect-to-buyers.PNG" alt="connect-to-buyers" class="w-full">
+                    <div class="bg-gray-300 p-2">
+                        <h2 class="text-xl font-semibold">Connect To Buyers</h2>
+                        <hr>
+                        <p>
+                            Connect To Buyers is a simple shopping site built with HTML, CSS and JavaScript
+                            Check my GitHub <a href="https://github.com/bankah-junior" class="font-semibold text-lg text-blue-500">@bankah-junior</a> for the repository.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:w-100-70 justify-between items-center shadow-xl mt-4">
+                    <img src="./img/trends-zone.PNG" alt="trends-zone" class="w-full">
+                    <div class="bg-gray-300 p-2">
+                        <h2 class="text-xl font-semibold">Trends Zone</h2>
+                        <hr>
+                        <p>
+                            Trends Zone is a frontend site where you can check latest release of your favourite 
+                            Anime Check my GitHub <a href="https://github.com/bankah-junior" class="font-semibold text-lg text-blue-500">@bankah-junior</a> 
+                            for the repository.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:w-100-70 justify-between items-center shadow-xl mt-4">
+                    <img src="./img/chatters.PNG" alt="chatters" class="w-full">
+                    <div class="bg-gray-300 p-2">
+                        <h2 class="text-xl font-semibold">Chatters</h2>
+                        <hr>
+                        <p>
+                            Chatters is a WhatsApp clone with some features working 
+                            Check my GitHub <a href="https://github.com/bankah-junior" class="font-semibold text-lg text-blue-500">@bankah-junior</a> 
+                            for the repository.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Projects -->
+
+        <!-- Contact -->
+        <div class="contact w-full mt-4" id="contact">
+            <div class="contact-container p-4">
+                <h3 class="text-4xl font-bold text-right">Contact Me</h3>
+                <h5 class="text-2xl font-semibold text-right">Be In Touch</h5>
+                <div class="bg-gray-300 flex flex-col md:flex-row w-full md:py-4">
+                    <div class="flex justify-around my-4 md:my-0 md:w-100-50">
+                        <div class="flex flex-col items-center">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 p-2 mr-2 rounded-full bg-red-500 flex items-center justify-center">
+                                    <img src="./icon/envelope.png" alt="envelope" class="w-8 h-8">
+                                </div>
+                                <span class="font-semibold">Send Email:</span>
+                            </div>
+                            <a href="mailto:antqueenbankah95@gmail.com" class="font-semibold text-blue-500 underline">antqueenbankah95@gmail.com</a>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 p-2 mr-2 rounded-full bg-red-500 flex items-center justify-center">
+                                    <img src="./icon/phone.png" alt="phone" class="w-8 h-8">
+                                </div>
+                                <span class="font-semibold">Tel:</span>
+                            </div>
+                            <a href="tel:+262991910" class="font-semibold text-blue-500 underline">+233262991910</a>
+                        </div>
+                    </div>
+                    <div class="flex justify-around mb-4 md:mb-0 md:w-100-50">
+                        <div class="flex flex-col items-center">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 p-2 mr-2 rounded-full bg-red-500 flex items-center justify-center">
+                                    <img src="./icon/linkedin.png" alt="linkedin" class="w-6 h-6">
+                                </div>
+                                <span class="font-semibold">LinkedIn:</span>
+                            </div>
+                            <a href="https://www.linkedin.com/in/anthony-bekoe-bankah-080448240" class="font-semibold text-blue-500 underline">@Antnony Bekoe Bankah</a>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 p-2 mr-2 rounded-full bg-red-500 flex items-center justify-center">
+                                    <img src="./icon/github.png" alt="github" class="w-8 h-8">
+                                </div>
+                                <span class="font-semibold">GitHub:</span>
+                            </div>
+                            <a href="https://github.com/bankah-junior" class="font-semibold text-blue-500 underline">@bankah-junior</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Contact -->
+
+    </main>
+
+    <footer class="py-2 mt-4 text-white">
+        <center>Copyright &copy; 2023. Allrights Reserved <br> Bankah Anthony Bekoe</center>
+    </footer>
+    
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
