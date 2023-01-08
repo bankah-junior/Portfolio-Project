@@ -11,6 +11,7 @@ const projectsIcon = document.querySelector('#projectsIcon');
 const Projects = document.querySelector('#Projects');
 const contactIcon = document.querySelector('#contactIcon');
 const Contact = document.querySelector('#Contact');
+const aboutImg = document.getElementById('aboutImg');
 
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.add('hidden');

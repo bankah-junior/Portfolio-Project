@@ -79,6 +79,7 @@ main {
                 .bg-reddish {
                     background-color: #F64C72;
                     color: #fff;
+                    border: 2px solid #F64C72;
 
                     img {
                         filter: invert(50%);
@@ -86,7 +87,6 @@ main {
                 }
                 .bg-reddish:hover {
                     background-color: transparent;
-                    border: 2px solid #F64C72;
                     color: inherit;
                     transition: all ease-out 500ms;
                 }
@@ -111,10 +111,48 @@ main {
             color: white;
           }
           
-          .html {width: 90%; background-color: #4CAF50;}
-          .css {width: 80%; background-color: #2196F3;}
-          .js {width: 65%; background-color: #f44336;}
-          .php {width: 60%; background-color: #808080;}
+          .cpp {width: 35px; background-color: #808080; animation: widthChangeCpp 7s alternate-reverse infinite ease;}
+          @keyframes widthChangeCpp {
+            60%{
+                width: 60%;
+                border-right: 7px solid rgb(69, 69, 69);
+            }
+          }
+          .html {width: 35px; background-color: #4CAF50; animation: widthChangeHtml 9s alternate-reverse infinite ease;}
+          @keyframes widthChangeHtml {
+            80%{
+                width: 80%;
+                border-right: 7px solid #40bc44;
+            }
+          }
+          .css {width: 35px; background-color: #2196F3; animation: widthChangeCss 8s alternate-reverse infinite ease;}
+          @keyframes widthChangeCss {
+            70%{
+                width: 70%;
+                border-right: 7px solid #0d75ca;
+            }
+          }
+          .js {width: 35px; background-color: #f44336; animation: widthChangeJs 6s alternate-reverse infinite ease;}
+          @keyframes widthChangeJs {
+            50%{
+                width: 50%;
+                border-right: 7px solid #ee2618;
+            }
+          }
+          .tailwindcss {width: 35px; background-color: rgb(19, 150, 19); animation: widthChangeTailwindcss 7s alternate-reverse infinite ease;}
+          @keyframes widthChangeTailwindcss {
+            60%{
+                width: 60%;
+                border-right: 7px solid rgb(9, 175, 9);
+            }
+          }
+          .bootstrap {width: 35px; background-color: rgb(241, 171, 40); animation: widthChangeBootstrap 8.5s alternate-reverse infinite ease;}
+          @keyframes widthChangeBootstrap {
+            75%{
+                width: 75%;
+                border-right: 7px solid orange;
+            }
+          }
     }
 }
 

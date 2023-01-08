@@ -55,13 +55,13 @@ main .home .home-container .reddish {
 main .home .home-container .buttons .bg-reddish {
   background-color: #F64C72;
   color: #fff;
+  border: 2px solid #F64C72;
 }
 main .home .home-container .buttons .bg-reddish img {
   filter: invert(50%);
 }
 main .home .home-container .buttons .bg-reddish:hover {
   background-color: transparent;
-  border: 2px solid #F64C72;
   color: inherit;
   transition: all ease-out 500ms;
 }
@@ -79,28 +79,70 @@ main .skills .skills {
   color: white;
 }
 main .skills .cpp {
-  width: 60%;
+  width: 35px;
   background-color: #808080;
+  animation: widthChangeCpp 7s alternate-reverse infinite ease;
+}
+@keyframes widthChangeCpp {
+  60% {
+    width: 60%;
+    border-right: 7px solid rgb(69, 69, 69);
+  }
 }
 main .skills .html {
-  width: 80%;
+  width: 35px;
   background-color: #4CAF50;
+  animation: widthChangeHtml 9s alternate-reverse infinite ease;
+}
+@keyframes widthChangeHtml {
+  80% {
+    width: 80%;
+    border-right: 7px solid #40bc44;
+  }
 }
 main .skills .css {
-  width: 70%;
+  width: 35px;
   background-color: #2196F3;
+  animation: widthChangeCss 8s alternate-reverse infinite ease;
+}
+@keyframes widthChangeCss {
+  70% {
+    width: 70%;
+    border-right: 7px solid #0d75ca;
+  }
 }
 main .skills .js {
-  width: 50%;
+  width: 35px;
   background-color: #f44336;
+  animation: widthChangeJs 6s alternate-reverse infinite ease;
+}
+@keyframes widthChangeJs {
+  50% {
+    width: 50%;
+    border-right: 7px solid #ee2618;
+  }
 }
 main .skills .tailwindcss {
-  width: 60%;
-  background-color: #808080;
+  width: 35px;
+  background-color: rgb(19, 150, 19);
+  animation: widthChangeTailwindcss 7s alternate-reverse infinite ease;
+}
+@keyframes widthChangeTailwindcss {
+  60% {
+    width: 60%;
+    border-right: 7px solid rgb(9, 175, 9);
+  }
 }
 main .skills .bootstrap {
-  width: 75%;
-  background-color: orange;
+  width: 35px;
+  background-color: rgb(241, 171, 40);
+  animation: widthChangeBootstrap 8.5s alternate-reverse infinite ease;
+}
+@keyframes widthChangeBootstrap {
+  75% {
+    width: 75%;
+    border-right: 7px solid orange;
+  }
 }
 
 footer {
