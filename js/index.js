@@ -12,6 +12,7 @@ const Projects = document.querySelector('#Projects');
 const contactIcon = document.querySelector('#contactIcon');
 const Contact = document.querySelector('#Contact');
 const aboutImg = document.getElementById('aboutImg');
+const form = document.querySelector('#form');
 
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.add('hidden');
@@ -103,4 +104,14 @@ Contact.addEventListener('click', () => {
     Skills.classList.remove('active-link');
     Projects.classList.remove('active-link');
     Contact.classList.add('active-link');
+});
+
+form.addEventListener('submit', () => {
+    alert(`
+            Mesage sent successfully!
+            Thank you for contacting.
+            Bankah will reply you shortly ☺
+        `);
+    let inputs = document.getElementsByTagName('input');
+    inputs.innerHTML = '';
 });

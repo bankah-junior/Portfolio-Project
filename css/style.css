@@ -144,6 +144,63 @@ main .skills .bootstrap {
     border-right: 7px solid orange;
   }
 }
+main .contact-me .contact-me-container {
+  background-color: #dde1e7;
+}
+main .contact-me .contact-me-container .content {
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.4509803922), 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+main .contact-me .contact-me-container .content .text {
+  color: #595959;
+}
+main .contact-me .contact-me-container .content .field input {
+  width: 100%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: #dde1e7;
+  color: #595959;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+main .contact-me .contact-me-container .content .field input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgba(255, 255, 255, 0.4509803922);
+}
+main .contact-me .contact-me-container .content .fieldArea textarea {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1.3rem;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: #dde1e7;
+  color: #595959;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+main .contact-me .contact-me-container .content .fieldArea textarea:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgba(255, 255, 255, 0.4509803922);
+}
+main .contact-me .contact-me-container .content button {
+  margin: 0.9rem 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #dde1e7;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  color: #595959;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+main .contact-me .contact-me-container .content button:focus {
+  color: #3498db;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
 
 footer {
   background-color: #2F2FA2;
